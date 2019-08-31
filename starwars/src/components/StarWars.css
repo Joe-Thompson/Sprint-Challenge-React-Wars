@@ -1,0 +1,48 @@
+.App {
+    /*text-align: center;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+.Header {
+    width: 100%;
+    margin: 0 auto;
+    color: #443e3e;
+    text-shadow: 1px 1px 5px #fff;
+}
+
+.cardDisplay {
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.cardLayout {
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto;
+}
+
+strong {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.lead {
+    font-size: 2.5rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
